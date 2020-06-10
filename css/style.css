@@ -1,0 +1,95 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* Regole Generali Struttura Body */
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+/* Fine Regole Generali Struttura Body */
+/* Inizio stile elementi barra di navigazione */
+nav {
+  padding: 25px 85px;
+  height: 90px;
+}
+.opening_link {
+  position: relative;
+}
+.list-style {
+  list-style: none;
+  line-height: 80px;
+}
+
+.list-style li {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.2em;
+}
+.list-style li:hover a {
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: #b9b6b6;
+}
+.nav_left .list-style li:nth-child(2n) a {
+  color: #222222;
+  font-weight: bold;
+}
+.nav_left img {
+  width: 100px;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.app_download_btn {
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: #f53eac;
+  border: 1px solid #f53eac;
+  color: #ffffff;
+}
+.app_download_btn:hover {
+  background-color: #a73078;
+  border: 1px solid #a73078;
+  cursor: pointer;
+}
+.dropdown_list {
+  list-style: none;
+  line-height: 70px;
+  width: 350px;
+  text-align: center;
+}
+.dropdown_list li {
+  display: block;
+}
+.dropdown .dropdown_list li a {
+  color: #f53eac;
+}
+.dropdown .dropdown_list li:hover a {
+  color: #a73078;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  padding: 70px;
+  filter: drop-shadow(2px 2px 2px rgba(199, 199, 199, 0.81));
+  background-color: #ffffff;
+}
+.active {
+  display: block;
+}
+/* Fine stile elementi barra di navigazione */
