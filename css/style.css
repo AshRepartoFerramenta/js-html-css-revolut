@@ -102,9 +102,9 @@ a {
 }
 /* Fine stile elementi barra di navigazione */
 .trailer {
-  /* float:left; */
+  float:left;
   height: 50%;
-  width: 100%;
+  width: 80%;
   padding: 0 80px;
   color: rgb(198, 188, 168);
 }
@@ -135,14 +135,6 @@ p {
   padding: 1.5em;
   border-radius: 70px;
 }
-
-/* .trailer .presentation .logo {
-    position: absolute;
-    width: 10%;
-    height: 400px;
-    z-index: auto;
-
-} */
 
 .trailer .presentation. label {
     width: 100%;
