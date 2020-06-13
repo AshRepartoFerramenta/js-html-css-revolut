@@ -18,15 +18,17 @@ body {
   background-color: #121212;
   list-style: none;
   text-decoration: none;
+  color: rgb(198, 188, 168);
 }
 /* Fine Regole Generali Struttura Body */
+
 /* Inizio stile elementi barra di navigazione */
 header {
     position: fixed;
     background-color: #121212;
 }
 nav {
-  padding: 25px 85px;
+  padding: 20px 90px;
   height: 90px;
 }
 .opening_link {
@@ -55,7 +57,7 @@ a {
   font-weight: bold;
 }
 .nav_left img {
-  width: 150px;
+  width: 140px;
 }
 
 .float-left {
@@ -66,7 +68,7 @@ a {
 }
 .app_download_btn {
   border-radius: 50px;
-  padding: 10px 20px;
+  padding: 10px 40px;
   background-color: #f53eac;
   border: 1px solid #f53eac;
   color: #ffffff;
@@ -106,10 +108,11 @@ a {
   display: block;
 }
 /* Fine stile elementi barra di navigazione */
+
+/* Inizio prima sezione descrizione generale prodotto */
 .trailer {
   width: 100%;
   padding: 0 80px;
-  color: rgb(198, 188, 168);
 }
 
 h1 {
@@ -126,29 +129,146 @@ p {
     padding-top: 25%;
     width:50%;
 }
-.trailer .presentation li {
-  display: block;
-  margin: 8% 0;
+.trailer .money_change{
+    padding-bottom: 40px;
 }
-.trailer .presentation .button {
-  padding: 1.5em;
-  border-radius: 70px;
-}
-
-.trailer .presentation. label {
-    width: 100%;
-    min-height: 3rem;
-    padding-top: 16px;
-    line-height: 2.5em;
-    color: #B9B6B6;
-    text-align: center;
-    background: transparent;
-    border-radius: 10px;
-}
-
 .trailer .logo{
     float:left;
-    margin: auto;
-    padding-top: 25%;
+    padding-top: 10%;
     width:50%;
 }
+.tab-number .prefix {
+    margin-right: 10px;
+    padding: 0 20px;
+}
+.tab-number .telephone{
+    margin-right: 10px;
+    padding: 0 20px;
+}
+.cashdraw {
+    padding-top: 40px;
+}
+/* Fine prima sezione descrizione generale prodotto *
+
+/* Inizio Seconda parte del Main */
+
+/* Titolo seconda parte*/
+.second-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.second-title h2{
+    font-size: 3.5em;
+}
+.logo{
+    transition-delay: 2s;
+}
+
+/* .flex-item{
+    height: 100%;
+    margin: 0px;
+    float: left;
+}
+
+.flex-image-stock .flex-item{
+    flex-basis: calc(100% / 6);
+} */
+
+/* .flex_item {
+  padding: 10px;
+}
+.flex_item img {
+  width: 100%;
+} */
+/* Fine Titolo seconda parte */
+
+/* Prima parte descizione servizi Revolut */
+.conteiner-1 {
+    width: 100%;
+    padding: 20px 80px;
+}
+
+h2{
+  font-size: 2rem;
+  padding-bottom: 80px;
+}
+
+li{
+   padding-bottom: 40px;
+   list-style: none;
+   font-size: 1.2rem;
+}
+
+.conteiner-1 .phone-1 {
+    float:left;
+    width:50%;
+}
+
+.main-class {
+    padding-top: 10%;
+    font-size: 1.2rem;
+}
+/* Fine Prima parte descizione servizi Revolut */
+
+/* Inzio seconda parte descizione servizi Revolut */
+.conteiner-2  {
+    float: left;
+    width: 60%;
+    padding: 50px 80px;
+}
+
+h2{
+  font-size: 2rem;
+  padding-bottom: 80px;
+}
+
+li{
+   padding-bottom: 40px;
+   list-style: none;
+   font-size: 1.2rem;
+}
+
+.second-list{
+    padding-top: 15%;
+}
+
+.phone-2 {
+    margin-top: 20%;
+
+}
+
+/* Fine seconda parte descizione servizi Revolut */
+
+/* Inzio terza parte descizione servizi Revolut */
+.conteiner-3 {
+    width: 100%;
+    padding: 20px 80px;
+}
+
+h2{
+  font-size: 2rem;
+  padding-bottom: 80px;
+}
+
+li{
+   padding-bottom: 40px;
+   list-style: none;
+   font-size: 1.2rem;
+}
+
+.conteiner-3 .phone-3 {
+    float:left;
+    width:50%;
+}
+/* .main-class-terza{
+    margin-top: 20%;
+} */
+
+.third-list {
+    padding-top: 10%;
+    font-size: 1.2rem;
+}
+/* Fine terza parte descizione servizi Revolut */
+
+
+/* Fine Seconda parte del Main */
